@@ -12,10 +12,10 @@ function Dice() {
   };
 
   return (
-    <div className="flex-col items-center justify-center gap-5" style={{ fontFamily: 'Arial, sans-serif', padding: '20px', backgroundColor: 'grey' }}>
+    <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', textAlign: 'center', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
       <h1 className="font-bold mb-6">Dice Roller</h1>
 
-      <div className="flex gap-8 mb-6" style={{ gap: '20px' }}>
+      <div className="d-flex gap-8 mb-6" style={{ gap: '20px', display: 'flex', justifyContent: 'center' }}>
         <img
           src={`/src/assets/dice${dice1}.png`}
           alt={`Dice ${dice1}`}
